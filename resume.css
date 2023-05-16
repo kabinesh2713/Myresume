@@ -1,0 +1,654 @@
+ *{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: "Open Sans", sans-serif;
+   }
+   /*====common style start====*/
+   .all-cover{
+	background:linear-gradient(#00000077,#00000076);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+   .container{
+	width:1140px;
+	margin:0 auto;
+	padding:0 15px;
+   }
+    .sec-title{
+	width:100%;
+	margin-bottom:40px;
+    text-align: center;
+   }
+   .sec-title h1{
+    color:#e66e07f5;
+    font-size: 32px;
+   }
+   .sec-title p{
+	color:#999;
+    margin-top: 30px;
+    font-size: 22px;
+   }
+    /*=============common style end =============*/
+	
+		/*===================== banner start=================*/
+		.back-video{
+			height:100%;
+			width:100%;
+			object-fit: cover;
+			left:0;
+			top:0;
+			position: fixed;
+			z-index:-1;
+		}
+		.bannersection{	
+			padding:80px 0;
+		}
+		.flexbanner{
+			display:flex;
+			justify-content:center;
+		}
+        .bannercontent h3{
+          color:#e66e07f5;
+          font-size:50px;
+        }
+        .bannercontent h1{
+            color:#fff;
+            font-size: 90px;
+            font-weight:900;
+			margin-top: 30px;
+        }
+        .bannercontent h4{
+            color:#999;
+            font-size: 55px;
+			margin-top: 30px;
+        }
+		.btn-flex{
+			display:flex;
+            margin-top: 50px;
+			cursor: pointer;
+		}
+		.btn-flex i{
+			margin: 15px 25px;
+			width:50px;
+			height:50px;
+			text-align: center;
+			line-height: 50px;	
+			border:solid 1px #fff;
+			color:#fff;
+			border-radius: 50%;
+			font-size: 28px;
+		}
+		.btn-flex .face i:hover{
+			background-color: blue;
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		.btn-flex .twit i:hover{
+			background-color: rgb(77, 187, 255);
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		.btn-flex .watts i:hover{
+			background-color: rgb(4, 236, 4);
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		.btn-flex .insta i:hover{
+			background-color:#ff0062;
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		/*============ service start=============*/
+		.servicesection{	
+			padding:80px 0;
+            padding-bottom: 70px;
+		}
+		.flexservice{
+			display:flex;
+			justify-content:space-between;
+			position:relative;
+		}
+		.servicecontent{
+			width:30%;
+            position: relative;
+		}
+		.flexservice::before{
+            position:absolute;
+			content:"";
+			width:80px;
+			bottom:0px;
+			left:250px;
+			border:3px solid #e66e07f5;
+			border-radius:10px;
+            height:80px;
+  			}
+			.flexservice::after{
+            position:absolute;
+			content:"";
+			width:80px;
+			bottom:70px;
+			left:290px;
+			border:3px solid #e66e07f5;
+			border-radius:10px;
+            height:80px;
+  			}
+        .servicecontent .img-1{
+           width:100%;
+           border-radius: 15px;
+        }
+        .servicecontent .img-2{
+            width: 80%;
+            position: absolute;
+            top: 310px;
+            left: -50px;
+            bottom: 0;
+            border-radius:15px;
+        }
+        .servicecontent2{
+			width:60%;
+			color:#ffff;
+			position:relative;
+		}
+		.servicecontent2 h2::after{
+			position:absolute;
+			content:"";
+			width:80px;
+			top:39px;
+			left:20px;
+			border:2px solid #ccc;
+		}
+		.servicecontent2 h2{
+			color:#e66e07f5;
+			font-size: 28px;
+		}
+		.servicecontent2 h1{
+			font-size: 50px;
+            margin-top: 20px;
+		}
+		.servicepara{
+			color:#999;
+			margin-top: 15px;
+			font-size: 22px;
+			line-height: 30px;
+		}
+		.back-box{
+			padding: 40px 0;
+			margin-top: 30px;
+			background-color: rgb(100 100 115/ 51%);
+			padding: 25px;
+			border-radius: 10px;
+		}
+        .serviceone{
+			display: flex;
+			margin-top: 10px;
+			line-height: 40px;
+			
+		}
+		.serviceone p{
+			color:#000;
+			font-size: 22px;
+		}
+		.servicetwo{
+			margin-left:40px;
+		}
+		.downbtn{
+            margin-top: 30px;
+		}
+		.downbtn a{
+			padding: 10px;
+			width:20%;
+			text-decoration: none;
+			font-size: 16px;
+			background:transparent;
+			font-weight: 600;
+			color:#fff;
+			border-radius: 5px;
+			border:solid 1px;
+			
+			}
+			.downbtn a:hover{
+				background:#e66e07f5;
+				border:none;
+				cursor:pointer;
+			}
+           
+		/*============= menu start============*/
+		.menusection{	
+			padding:80px 0;
+		}
+        .flexmenu{
+			display:flex;
+			justify-content:space-between;
+		}
+		
+		.menucontent{
+			width:45%;
+		}
+		.menucontent2{
+			width:45%;
+		}
+		.menucontent h3{
+			color:#e66e07f5;
+			font-size: 28px;
+		}
+		.menucontent h1{
+           font-size: 43px;
+		   color:#fff;
+		   margin-top: 20px;
+		}
+		.menucontent p{
+			color:#999;
+			margin-top: 25px;
+			font-size: 22px;
+			line-height: 30px;
+		}
+		.menucontent2 h2{
+			font-size: 25px;
+			color:#fff;
+		 }
+		 .menucontent2 h1{
+			font-size: 25px;
+			color:#fff;
+			margin-top: 20px;
+		 }
+		 .menucontent2 p{
+			color:#999;
+			margin-top: 17px;
+			font-size: 22px;			
+		}
+		.menufront{
+			margin-top: 45px;
+		}
+
+		/*===============special start =============*/
+		.portfoliosection{	
+			padding:30px 0;
+		}
+		.flexspecial{
+			display:flex;
+            flex-wrap:wrap;
+			justify-content:space-between;
+		}
+		.specialcontent{
+			width:30%;
+            margin:15px;
+			margin-top: 20px;
+		}
+		.specialcontent img{
+			width:100%;
+			height:250px;
+			transition: all  ease 0.5s;
+		}
+		.specialcontent:hover img{
+			transform:scale(1.2);
+			 transition: all  ease 0.5s;
+		}
+		
+/*=========contact section start=======*/
+#contact-sec{
+	padding:10px 0;
+}
+.servicesect{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	cursor:pointer;
+}
+.servicecard{
+	padding:50px 20px;
+}
+.col-lg-6{
+	width:40%
+}
+.serviceitem{
+	position:relative;
+	background-color:rgb(100 100 115/ 51%);
+    padding:50px 0px;
+	box-shadow:var(--box-shadow);
+	text-align:center;
+	border-radius:15px;
+}
+.serviceitem:before{
+	content:"";
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+    left:0;
+	background:#dadacd52;
+	transition:all .2s ease;
+	z-index:-999;
+	border-radius:10px;
+	opacity:0;	
+}
+.serviceitem:hover:before{
+	transform:rotate(14deg);
+	opacity:1;
+}
+.serviceitem p{
+	font-size:18px;
+	font-weight:900;
+	min-height:48px;
+	color:#999;
+}
+ .serviceitem  .service-icons{
+	 position:absolute;
+	 top:-30px;
+	 left:50%;
+	 width:50px;
+	 height:50px;
+	 text-align:center;
+	 line-height:53px;
+	 font-size:20px;
+	 transform:translateX(-50%);
+	 z-index:1;
+ }
+ .service-icons:after{
+	 content:"";
+	 position:absolute;
+	 left:0;
+	 top:0;
+	 width:100%;
+	 height:100%;
+	 background-color:#e66e07f5;
+     border-radius:50%;
+	 z-index:-1;
+	 transition:all 0.2s ease;
+ }
+ .serviceitem h3 a{
+	 display:inline-block;
+	 font-size:20px;
+	 padding-bottom:10px;	
+     text-decoration:none;
+     color:#fff;	 
+ } 
+ 
+  .serviceitem:hover   .service-icons:after{
+	  transform:scale(1.5);
+	  color:#fff;
+  }
+   .serviceitem:hover  .service-icons{
+	   color:#fff;
+   }
+   .serviceitem:hover h3 a{
+	   color:#e66e07f5;
+   }
+   .serviceitem:hover p{
+	  color:#000;
+   }
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		@media (max-width:768px){
+    .all-cover{
+        width:238% !important;
+       }
+   .container{
+    width:100%;
+    margin:0 10px !important
+   }
+   .sec-title h1{
+    font-size: 40px !important;
+    
+   }
+ .sec-title p{
+   font-size: 35px !important;
+ }
+   /* banner sec */
+   .flexbanner{
+    text-align: center;
+   }
+   .btn-flex{
+   justify-content: center !important ;
+   flex-wrap: wrap !important;
+    
+   }
+   .detail{
+    width:100% !important;
+   }
+   .btn-flex i{
+    margin-top: 60px !important;
+     font-size: 35px !important;
+   }
+   /* about sec */
+   .flexabout{
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    margin:10px 0;
+}
+   .aboutcontent{
+    width:65% !important;
+   }
+   .aboutcontent p{
+    font-size: 25px !important;
+    }
+    /* service start */
+    .flexservice{
+        display:flex;
+         flex-wrap: wrap !important;
+    }
+    .serviceone{
+        display: flex;
+        justify-content: space-between !important;
+    }
+    .serviceone h3{
+        font-size: 27px !important;
+    }
+    .serviceone p{
+        font-size: 24px !important;
+    }
+    .servicecontent{
+        width:100% !important;
+    }
+    .servicecontent .img-1{
+        width:90% !important;
+    }
+    .servicecontent .img-2 {
+        width: 50% !important;
+        position: absolute;
+        top: 720px !important;
+        left: 565px !important;
+        bottom: 0px;
+        border-radius: 10px;
+    }
+    .servicecontent2{
+        width:100% !important;
+        margin-top: 400px;
+    }
+    .servicecontent2 h2{
+        font-size:45px !important;
+        margin-top: 50px !important;
+    }
+    .servicecontent2 h1{
+        font-size:74px !important;
+        margin-top: 30px !important;
+    }
+    .servicepara{
+        font-size:40px !important;
+         line-height: 50px !important;
+         margin-top: 30px !important;
+    }
+   
+    .servicetwo{
+        justify-content: end !important;
+        
+    }
+    .downbtn{
+        margin-top: 30px !important;
+    }
+   
+   
+/*  menu sec */
+.flexmenu{
+    display:flex;
+  flex-wrap: wrap !important;
+}
+.menusection{	
+    padding:40px 0;
+}
+    .menucontent{
+        width:100% !important;
+    }
+    .menucontent2{
+        width:70% !important;
+        text-align: center !important;
+        margin-left:140px !important;
+        margin-top: 80px;
+        background-color:rgb(166 142 233 / 23%);
+			padding: 50px;
+
+    }
+    .menucontent h3{
+        font-size: 40px !important;
+    }
+    .menucontent h1{
+        font-size: 53px !important;
+    }
+    .menucontent p{
+        font-size: 38px !important;
+        line-height: 55px !important;
+    }
+    .menucontent2 h2{
+        font-size: 42px !important;
+    }
+    .menucontent2 h1{
+        font-size: 45px !important;
+    }
+    .menucontent2 p{
+        font-size: 33px !important;
+    }
+    /* porfoilo sec */
+    .flexspecial{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center !important;
+    }
+    .specialcontent{
+        width:65% !important;
+    
+    }
+    .specialcontent img{
+        height:300px !important;
+    }
+    /* contact  sec */
+    .contact{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .conticon{
+        width:70% !important;
+        margin-top: 50px !important;
+        height: 150px;
+    }
+    .conticon .fa{
+        width:70px !important;
+        height:70px !important;
+        line-height: 60px !important;
+        border-radius:50% !important;
+        font-size: 40px !important;
+           left:350px !important;
+           top:-28px !important;
+          
+    }
+    .conticon address{
+        margin-top: 50px !important;
+        font-size: 30px !important;
+    }
+   
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .aboutcontent{
+        width:45% !important;
+         margin:15px !important;
+       }
+    .servicecontent .img-1{
+        width:80% !important; 
+    }
+    .servicecontent .img-2 {
+        width: 50% !important;
+        position: absolute;
+        top: 620px !important;
+        left: 565px !important;
+        bottom: 0px;
+        border-radius: 10px;
+    }
+    .servicecontent2 h2{
+        font-size:45px !important;
+        margin-top: 70px !important;
+    }
+    .back-box{
+        width:80% !important;
+        margin-left: 90px !important;
+    }
+    .menucontent2{
+        width:90% !important;
+        margin-left:50px !important;
+        margin-top: 80px;
+    }
+    .specialcontent{
+        width:45% !important;
+      
+    }
+    .specialcontent img{
+        height:300px !important;
+    }
+    .conticon{
+        width:45% !important;
+        height: 250px;
+        margin-top: 80px !important;
+    }
+    .conticon .fa{
+        width: 90px !important;
+        height: 90px !important;
+        line-height: 90px !important;
+        border-radius: 50% !important;
+        font-size: 51px !important;
+        left: 190px !important;
+        top: -47px !important;
+    }
+    .conticon address{
+        margin-top: 50px !important;
+        font-size: 35px !important;
+    }
+   
+}
