@@ -6,13 +6,12 @@
 	}
 	/*====common style start====*/
 	.all-cover{
-	background:linear-gradient(#00000077,#00000076);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	}
 	.container{
-	width:1140px;
+	width:1170px;
 	margin:0 auto;
 	padding:0 15px;
 	}
@@ -22,6 +21,7 @@
 	text-align: center;
 	}
 	.sec-title h1{
+	text-decoration:underline;
 	color:#e66e07f5;
 	font-size: 32px;
 	}
@@ -188,7 +188,6 @@
 	display: flex;
 	margin-top: 10px;
 	line-height: 40px;
-
 	}
 	.serviceone p{
 	color:#000;
@@ -210,14 +209,12 @@
 	color:#fff;
 	border-radius: 5px;
 	border:solid 1px;
-
 	}
 	.downbtn a:hover{
 	background:#e66e07f5;
 	border:none;
 	cursor:pointer;
 	}
-
 	/*============= menu start============*/
 	.menusection{	
 	padding:80px 0;
@@ -226,7 +223,6 @@
 	display:flex;
 	justify-content:space-between;
 	}
-
 	.menucontent{
 	width:45%;
 	}
@@ -235,6 +231,7 @@
 	}
 	.menucontent h3{
 	color:#e66e07f5;
+	text-decoration:underline;
 	font-size: 28px;
 	}
 	.menucontent h1{
@@ -387,54 +384,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 
 	@media (max-width:768px){
@@ -443,7 +392,7 @@
 	}
 	.container{
 	width:100%;
-	margin:0 10px !important
+	margin:0 10px !important;
 	}
 	.sec-title h1{
 	font-size: 40px !important;
@@ -483,7 +432,28 @@
 	/* service start */
 	.flexservice{
 	display:flex;
+	position:relative;
 	flex-wrap: wrap !important;
+	}
+	.flexservice::before{
+	position:absolute;
+	content:"";
+	width:80px;
+	top:820px;
+	left:300px;
+	border:3px solid #e66e07f5;
+	border-radius:10px;
+	height:80px;
+	}
+	.flexservice::after{
+	position:absolute;
+	content:"";
+	width:80px;
+	top:880px;
+	left:350px;
+	border:3px solid #e66e07f5;
+	border-radius:10px;
+	height:80px;
 	}
 	.serviceone{
 	display: flex;
@@ -504,39 +474,44 @@
 	.servicecontent .img-2 {
 	width:40% !important;
 	position: absolute;
-	top:560px !important;
-	left:350px !important;
+	top:450px !important;
+	right:350px !important;
 	bottom: 0px;
 	border-radius: 10px;
 	}
 	.servicecontent2{
 	width:100% !important;
 	margin-top: 400px;
+	position:relative;
+	}
+	.servicecontent2 h2::after{
+	position:absolute;
+	content:"";
+	width:100px;
+	top:115px;
+	left:70px;
+	border:2px solid #ccc;
 	}
 	.servicecontent2 h2{
-	font-size:45px !important;
+	font-size:50px !important;
 	margin-top: 50px !important;
 	}
 	.servicecontent2 h1{
-	font-size:74px !important;
+	font-size:60px !important;
 	margin-top: 30px !important;
 	}
 	.servicepara{
 	font-size:40px !important;
-	line-height: 50px !important;
-	margin-top: 30px !important;
+	line-height:50px !important;
+	margin-top:10px !important;
 	}
-
 	.servicetwo{
-	justify-content: end !important;
-
+	justify-content:end !important;
 	}
 	.downbtn{
 	margin-top: 30px !important;
 	}
-
-
-	/*  menu sec */
+	 /* menu sec */
 	.flexmenu{
 	display:flex;
 	flex-wrap: wrap !important;
@@ -669,5 +644,4 @@
 	margin-top: 50px !important;
 	font-size: 35px !important;
 	}
-
 	}
