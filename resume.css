@@ -4,7 +4,7 @@
 	box-sizing:border-box;
 	font-family: "Open Sans", sans-serif;
 	}
-	/*====common style start====*/
+	/*================ common style start ===================*/
 	.all-cover{
 	background-position: center;
 	background-size: cover;
@@ -30,9 +30,8 @@
 	margin-top: 30px;
 	font-size: 22px;
 	}
-	/*=============common style end =============*/
-
-	/*===================== banner start=================*/
+	/*================= common style end =====================*/
+	/*================= banner start =========================*/
 	.back-video{
 	height:100%;
 	width:100%;
@@ -262,7 +261,6 @@
 	.menufront{
 	margin-top: 45px;
 	}
-
 	/*===============special start =============*/
 	.portfoliosection{	
 	padding:30px 0;
@@ -282,12 +280,11 @@
 	height:250px;
 	transition: all  ease 0.5s;
 	}
-	.specialcontent:hover img{
+	.specialcontent:hover {
 	transform:scale(1.2);
 	transition: all  ease 0.5s;
 	}
-
-	/*=========contact section start=======*/
+	/*=========contact start=======*/
 	#contact-sec{
 	padding:10px 0;
 	}
@@ -644,4 +641,5 @@
 	margin-top: 50px !important;
 	font-size: 35px !important;
 	}
+
 	}
